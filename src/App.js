@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+// import Cards from "./Componets/Cards";
+// import ColorChanger from "./Componets/ColorChanger";
+
+// import Graphs from "./Componets/Graphs";
+// import Passwordgenrator from "./Componets/Passwordgenrator";
+// import Currency from "./Componets/CurrencyConverter/Currency";
+
+// import Counter from "./Componets/Counter";
+// import Piechar from "./Componets/Piechar";
+import Login from "./Componets/ContextApi/Login";
+import UserContextProvider from "./Componets/ContextApi/UserContextProvider";
+import Header from "./Componets/ReactRouter/Header";
+// import Main from "./Componets/Todo/Main";
+
+import Main from "./Componets/Todo/Main";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ 
+  return(
+   
+    <Main/>
+  )
 }
 
 export default App;
